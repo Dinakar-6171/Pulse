@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="PULSE">
+  <defs>
+    <linearGradient id="pulseFill" x1="8" y1="4" x2="120" y2="124" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7DF9FF"/>
+      <stop offset="0.45" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="pulseCore" x1="24" y1="20" x2="96" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E8FBFF"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <!-- Angular energy mark: a forward chevron fused with a digital pulse. -->
+  <path fill="url(#pulseFill)" d="
+    M18 28
+    L46 8
+    L86 8
+    L114 36
+    L114 78
+    L78 120
+    L40 120
+    L14 90
+    Z"/>
+  <path fill="#07111F" d="
+    M28 36
+    L48 20
+    L80 20
+    L100 40
+    L100 72
+    L72 108
+    L46 108
+    L28 86
+    Z"/>
+  <path fill="url(#pulseCore)" d="
+    M44 32
+    H58
+    V54
+    L70 42
+    L80 56
+    L90 40
+    L104 58
+    L90 58
+    L80 72
+    L70 58
+    L58 72
+    V96
+    H44
+    Z"/>
+</svg>

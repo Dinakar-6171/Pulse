@@ -1,0 +1,10 @@
+
+.venv/
+__pycache__/
+*.py[cod]
+build/
+build-debug/
+dist/
+dist-debug/
+.pytest_cache/
+.env
